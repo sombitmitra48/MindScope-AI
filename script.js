@@ -1,6 +1,6 @@
 "use strict";
 /* ============ Config ============ */
-const API = (window.API_BASE_URL || "https://mindscope-ai-eoj9.onrender.com").replace(/\/$/, "");
+const API = "https://mindscope-ai-eoj9.onrender.com";
 const SCORE_MAX = 10;          // display scale for the ring; adjust if your model uses another range
 const TIMEOUT_MS = 20000;
 const $ = (s, r = document) => r.querySelector(s);
